@@ -21,6 +21,7 @@ public class App {
 		}
 	}
 	
+	
 	@RequestMapping("/")
 	String home(){
 		return "Hello world BOOT2222";
