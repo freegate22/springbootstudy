@@ -50,8 +50,11 @@
 			<artifactId>springloaded</artifactId>
 			<version>1.2.5.RELEASE</version>
 		</dependency>
-
-		
+		<dependency>
+			<groupId>org.lazyluke</groupId>
+			<artifactId>log4jdbc-remix</artifactId>
+			<version>0.2.7</version>
+		</dependency>
 	</dependencies>
 	
 	<build>
