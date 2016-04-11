@@ -1,1 +1,8 @@
 spring.datasource.sqlScriptEncoding: UTF-8
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    //url : jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    url : jdbc:h2:file:/Users/hansik/Downloads/sts-bundle/workspace-sts/demo/tmp/testdb
+    username: sa
+    passwrd: sa
