@@ -6,6 +6,11 @@ import javax.persistence.*;
 @Table(name = "customers")
 public class Customer {
 	
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + "]";
+	}
+
 	public Customer(){
 		
 	}
