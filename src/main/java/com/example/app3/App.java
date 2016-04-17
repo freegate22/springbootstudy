@@ -6,15 +6,15 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
-import com.example.app2.domain.Customer;
-import com.example.app3.repository.CustomerRepository;
+import com.example.app3.domain.Customer;
+import com.example.app3.repository.CustomerRepositoryJpa;
 
 @EnableAutoConfiguration
 @ComponentScan
 public class App implements CommandLineRunner{
 	
 	@Autowired
-	CustomerRepository customerRepository;
+	CustomerRepositoryJpa customerRepository;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(App.class, args);
